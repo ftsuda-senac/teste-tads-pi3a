@@ -15,6 +15,8 @@ public class Principal {
    * @param args the command line arguments
    */
   public static void main(String[] args) {
+    System.out.println("INICIANDO APLICATIVO");
+    
     long timestamp = System.currentTimeMillis();
     if (timestamp % 2 == 1) {
       System.out.println("Hello world git maven");
