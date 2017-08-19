@@ -15,7 +15,9 @@ public class Principal {
    * @param args the command line arguments
    */
   public static void main(String[] args) {
-    System.out.println("Hello world git maven");
+    for (int i = 0; i < 10; i++) {
+      System.out.println("Hello world git maven" + i);
+    }
   }
   
 }
