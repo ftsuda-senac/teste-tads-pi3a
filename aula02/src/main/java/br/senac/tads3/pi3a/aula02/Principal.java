@@ -18,6 +18,7 @@ public class Principal {
    * @param args the command line arguments
    */
   public static void main(String[] args) {
+    System.out.println("INICIANDO APLICATIVO");
     for (int i = 0; i < 15; i++) {
       long timestamp = System.currentTimeMillis();
       if (timestamp % 2 == 1) {
