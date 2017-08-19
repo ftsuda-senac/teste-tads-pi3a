@@ -15,9 +15,12 @@ public class Principal {
    * @param args the command line arguments
    */
   public static void main(String[] args) {
-    for (int i = 0; i < 10; i++) {
-      System.out.println("Hello world git maven" + i);
+    long timestamp = System.currentTimeMillis();
+    if (timestamp % 2 == 1) {
+      System.out.println("Hello world git maven");
+    } else {
+      System.out.println("Erro");
     }
   }
-  
+
 }
